@@ -1,5 +1,6 @@
 1. serverディレクトリ直下で以下コマンドを実行
 　　　　　　　　docker-compose up 
+
 2. コンテナ内で以下コマンドを実行してエコーサーバーを起動
 　　　　　　　　chmod +X endpoint.sh
     ./endpoint.sh
