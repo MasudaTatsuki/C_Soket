@@ -27,6 +27,7 @@ int main(int argc, char *argv[])
 
     echoServPort = atoi(argv[1]);
 
+    //  サーバー側でソケットを作る
     if ((servSock = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP)) < 0)
         DieWithError("socket() failed");
 
@@ -45,6 +46,8 @@ int main(int argc, char *argv[])
     {
         clntLen = sizeof(echoClntAddr);
 
+
+        // クライアントからパイプを繋ぎに来るのを待つ
         if ((clntSock = accept(servSock, (struct sockaddr*) &echoClntAddr, &clntLen)) < 0)
             DieWithError("accept() failed");
 
