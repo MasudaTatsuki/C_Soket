@@ -13,7 +13,7 @@
 <br>
 ・シグナルの状態はペンディングか、そうでないかの2択<br>
 <br>
-・Ctr+Cはシグナル (SIGINT) を送っている<br>
+・Ctr+Cはシグナル (SIGINT) を送っている
 
 [参考]:https://qiita.com/Kernel_OGSun/items/e96cef5487e25517a576
 
