@@ -14,7 +14,7 @@
 ・シグナルの状態はペンディングか、そうでないかの2択<br>
 <br>
 ・Ctr+Cはシグナル (SIGINT) を送っている<br>
-[参考]:https://qiita.com/Kernel_OGSun/items/e96cef5487e25517a576
+[Linux シグナルの基本と仕組み (カーネル v5.5 時点)](https://qiita.com/Kernel_OGSun/items/e96cef5487e25517a576)
 
 
 
