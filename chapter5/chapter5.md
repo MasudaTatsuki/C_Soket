@@ -15,7 +15,6 @@
 <br>
 ・Ctr+Cはシグナル (SIGINT) を送っている<br>
 
-
 [参考]:https://qiita.com/Kernel_OGSun/items/e96cef5487e25517a576
 
 
